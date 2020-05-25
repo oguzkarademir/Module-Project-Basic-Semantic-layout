@@ -2,14 +2,37 @@
 <html>
 
 <head>
-  <title></title>
+  <title>Semantic Layout</title>
   <meta charset="utf-8">
 
   <!-- Leave this here!  It renders the review buttons  -->
   <script src='./evaluation/init.js'></script>
+  <style>
+    header {
+      text-align: center;
+      border-style: none none solid none;
+    }
+
+    /* footer*/
+    footer {
+      border-style: solid none none none;
+    }
+    .footer-img {
+      width: 150px;
+      height: 200px;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 
 <body>
+  <header>
+    <h1>Interstellar (2014)</h1>
+  </header>
+
+  <footer>
+    <img class="footer-img" src="https://user-images.githubusercontent.com/53440164/82506206-77795600-9aff-11ea-882e-dd7724d04014.jpg" alt="interstellar poster">
+  </footer>
 </body>
 
 </html>
